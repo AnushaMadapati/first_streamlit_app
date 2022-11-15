@@ -43,14 +43,6 @@ fruit_choice = streamlit.text_input('What fruit would you like information about
       
 except URLError as e:
     streamlit.error)
-#streamlit.write('The user entered ', fruit_choice)
-
-#import requests
-
-
-# write your own comment -what does the next line do? 
-
-# write your own comment - what does this do?
 
 
 streamlit.stop()
